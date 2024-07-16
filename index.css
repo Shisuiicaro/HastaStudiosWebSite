@@ -1,0 +1,1261 @@
+.bg-icon {
+  position: absolute;
+  top: -480px;
+  left: 0;
+  width: 2038.9px;
+  height: 1399px;
+  object-fit: contain;
+}
+.visagerender-9db04333-26d7-49f-icon {
+  position: absolute;
+  top: 227px;
+  left: 877px;
+  width: 426px;
+  height: 692px;
+  object-fit: contain;
+  z-index: 1;
+}
+.main {
+  width: 1481px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.logo-icon {
+  height: 52px;
+  width: 187px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.discord,
+.our-team {
+  display: inline-block;
+  flex-shrink: 0;
+}
+.our-team {
+  text-decoration: none;
+  width: 146px;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+  z-index: 2;
+}
+.discord {
+  width: 115px;
+}
+.bisect-hosting,
+.discord,
+.launcher {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  z-index: 2;
+}
+.bisect-hosting {
+  flex: 1;
+  white-space: nowrap;
+}
+.launcher {
+  width: 122px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.team-title {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.3px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-century-gothic);
+}
+.logo-parent,
+.team-info {
+  display: flex;
+  max-width: 100%;
+}
+.team-info {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 3px;
+  box-sizing: border-box;
+}
+.logo-parent {
+  width: 866px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 74px;
+}
+.revolutionizing-minecraft1 {
+  margin: 0;
+  line-height: 129px;
+}
+.revolutionizing-minecraft {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-height: 387px;
+  z-index: 1;
+}
+.we-are-a {
+  line-height: 68px;
+}
+.multilingual-community-our {
+  line-height: 32px;
+}
+.we-are-a-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+  margin: -143px 0 0;
+}
+.description,
+.header,
+.main-parent,
+.revolution {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.revolution {
+  width: 1033px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.description,
+.header,
+.main-parent {
+  box-sizing: border-box;
+}
+.description {
+  width: 1277px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.header,
+.main-parent {
+  justify-content: flex-start;
+}
+.main-parent {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 27px 45px 185px;
+  position: relative;
+  gap: 268px;
+}
+.header {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 73.2px;
+  text-align: left;
+  font-size: var(--font-size-109xl);
+  color: var(--color-white);
+  font-family: var(--font-century-gothic);
+}
+.discord-child {
+  width: 394px;
+  height: 618px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  display: none;
+  max-width: 100%;
+}
+.wrapper-ellipse-18-child {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  transform: scale(3.232);
+}
+.wrapper-ellipse-18 {
+  width: 22.4px;
+  height: 22.4px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  height: 28.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.discord2 {
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  min-width: 51px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.partnership-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi-6);
+}
+.total-discord-members {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.members-row,
+.projects-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.projects-row {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.members-row {
+  width: 336px;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs) var(--padding-mid);
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--color-mediumseagreen);
+}
+.b {
+  flex: 1;
+  position: relative;
+  line-height: 32px;
+  z-index: 1;
+}
+.invitation {
+  width: 335px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-109xl);
+}
+.join-our-discord {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 34px;
+  color: var(--color-gray-200);
+  z-index: 1;
+}
+.discord-button-child {
+  height: 64px;
+  width: 315px;
+  position: relative;
+  background-color: var(--color-mediumblue);
+  display: none;
+}
+.join-discord {
+  margin: 0;
+  width: 347px;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 111%;
+  z-index: 1;
+}
+.discord-button,
+.discord-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.discord-button {
+  width: 315px;
+  background-color: var(--color-mediumblue);
+  padding: var(--padding-mini) 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.discord-buttons {
+  align-self: stretch;
+  padding: 0 var(--padding-base);
+  font-size: var(--font-size-5xl);
+}
+.cfdowloads-child,
+.discord1 {
+  width: 394px;
+  border-radius: var(--br-6xl);
+  max-width: 100%;
+}
+.discord1 {
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-4xl) var(--padding-31xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-37xl);
+  min-width: 394px;
+}
+.cfdowloads-child {
+  height: 618px;
+  position: relative;
+  display: none;
+}
+.wrapper-ellipse-18-item {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  transform: scale(3.232);
+}
+.wrapper-ellipse-181 {
+  width: 22.4px;
+  height: 22.4px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-ellipse-18-wrapper {
+  height: 28.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.projects {
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  min-width: 54px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi-6);
+}
+.dowloads,
+.total-projects {
+  margin: 0;
+}
+.total-projects-dowloads {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.cfdowloads-inner,
+.frame-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.cfdowloads-inner {
+  width: 336px;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs) var(--padding-mid);
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--color-mediumseagreen);
+}
+.b1 {
+  flex: 1;
+  position: relative;
+  line-height: 32px;
+  z-index: 1;
+}
+.wrapper {
+  width: 335px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-109xl);
+}
+.as-a-minecraft {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 34px;
+  color: var(--color-gray-200);
+  z-index: 1;
+}
+.cfbutton-child {
+  height: 64px;
+  width: 315px;
+  position: relative;
+  background-color: var(--color-mediumblue);
+  display: none;
+}
+.curseforge {
+  margin: 0;
+  width: 347px;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 111%;
+  z-index: 1;
+}
+.cfbutton,
+.cfbutton-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cfbutton {
+  width: 315px;
+  background-color: var(--color-mediumblue);
+  padding: var(--padding-mini) 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.cfbutton-wrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-base);
+  font-size: var(--font-size-5xl);
+}
+.bisect-child,
+.cfdowloads {
+  width: 394px;
+  border-radius: var(--br-6xl);
+  max-width: 100%;
+}
+.cfdowloads {
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-4xl) var(--padding-31xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-37xl);
+  min-width: 394px;
+}
+.bisect-child {
+  height: 618px;
+  position: relative;
+  display: none;
+}
+.wrapper-ellipse-18-inner {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  transform: scale(3.232);
+}
+.wrapper-ellipse-182 {
+  width: 22.4px;
+  height: 22.4px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-ellipse-18-container {
+  height: 28.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.bisesct-hosting {
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  min-width: 100px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi-6);
+}
+.bisect-hosting1,
+.partnership {
+  margin: 0;
+}
+.bisect-hosting-partnership {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.bisect-inner,
+.frame-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-container {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.bisect-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+}
+.looking-to-dive {
+  flex: 1;
+  position: relative;
+  line-height: 34px;
+  z-index: 1;
+}
+.looking-to-dive-into-minecraft-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) var(--padding-mid) var(--padding-2xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+}
+.discord-button-item {
+  height: 64px;
+  width: 315px;
+  position: relative;
+  background-color: var(--color-mediumblue);
+  display: none;
+}
+.get-a-server {
+  margin: 0;
+  width: 347px;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 111%;
+  z-index: 1;
+}
+.discord-button1 {
+  width: 315px;
+  background-color: var(--color-mediumblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.bisect,
+.discord-info {
+  display: flex;
+  max-width: 100%;
+}
+.bisect {
+  width: 394px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-gray-100);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) 39px var(--padding-31xl) 30px;
+  box-sizing: border-box;
+  gap: 36px;
+  min-width: 394px;
+  color: var(--color-mediumseagreen);
+}
+.discord-info {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.zsmp-nobg-1-icon {
+  width: 352px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.zsmp-image {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.minecraft-server,
+.server-image {
+  display: flex;
+  align-items: flex-end;
+}
+.minecraft-server {
+  margin: 0;
+  align-self: stretch;
+  height: 107px;
+  position: relative;
+  font-size: inherit;
+  line-height: 129px;
+  font-weight: 700;
+  font-family: inherit;
+  justify-content: center;
+}
+.server-image {
+  width: 1033px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 13.5px;
+  max-width: 100%;
+}
+.server-showcase {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-4xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 96px;
+}
+.community-content {
+  width: 1468px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 138px;
+  max-width: 100%;
+}
+.community {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-5xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-century-gothic);
+}
+.x-2-icon {
+  width: 2038.9px;
+  height: 1399px;
+  position: absolute;
+  margin: 0 !important;
+  right: -557.9px;
+  bottom: -405px;
+  object-fit: contain;
+}
+.at-zelthoriai-smp,
+.join-us-and,
+.welcome-to-zelthoriai {
+  margin: 0;
+}
+.welcome-to-zelthoriai-container1 {
+  width: 100%;
+}
+.welcome-to-zelthoriai-container {
+  margin: 0;
+  height: 546px;
+  width: 1379px;
+  position: relative;
+  font-size: inherit;
+  line-height: 39px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.welcome-to-zelthoriai-smp-a-v-wrapper {
+  margin-top: -681px;
+  width: 1576px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.our-team1 {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 77px;
+  z-index: 1;
+}
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+}
+.navigation-links {
+  position: relative;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 8px;
+  z-index: 1;
+}
+.footer-items1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  color: var(--color-gray-300);
+}
+.discord3,
+.navigation-links1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  z-index: 1;
+}
+.discord3 {
+  text-decoration: underline;
+  min-width: 69px;
+}
+.navigation-links1 {
+  min-width: 8px;
+}
+.footer-items2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  color: var(--color-gray-300);
+}
+.bisect-hosting2 {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 120px;
+  z-index: 1;
+}
+.footer-items3 {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.navigation-links2 {
+  position: relative;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 8px;
+  z-index: 1;
+}
+.footer-items4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  color: var(--color-gray-300);
+}
+.launcher1 {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 80px;
+  z-index: 1;
+}
+.footer-content1,
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footer-info {
+  width: 792px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footer-content1 {
+  width: 1558px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.logo-icon1 {
+  width: 187px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.logo-image {
+  height: 52px;
+  width: 371px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-child {
+  height: 52.4px;
+  width: 290px;
+  position: relative;
+  min-height: 52px;
+  z-index: 1;
+}
+.hasta-studios-all {
+  align-self: stretch;
+  position: relative;
+  line-height: 23.1px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.vector-icon {
+  height: 23.1px;
+  width: 21px;
+  position: relative;
+  min-height: 23px;
+}
+.design-by-shisuys {
+  align-self: stretch;
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  line-height: 17.8px;
+}
+.designer,
+.designer-name,
+.vector-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.designer-name {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs-1) 0 0;
+}
+.designer,
+.vector-parent {
+  flex-direction: row;
+}
+.vector-parent {
+  margin-top: 0;
+  flex: 1;
+  gap: 4px;
+  opacity: 0.5;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.designer {
+  width: 148px;
+  text-align: left;
+  font-size: 12px;
+}
+.hasta-studios-all-rights-rese-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.copyright,
+.logo-image-parent {
+  display: flex;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.copyright {
+  width: 430px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs-1);
+  box-sizing: border-box;
+}
+.logo-image-parent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: right;
+  font-size: var(--font-size-sm);
+}
+.footer,
+.footer-content,
+.hasta-studios {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer {
+  width: 1575px;
+  align-items: flex-start;
+  gap: 156.7px;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--font-size-base);
+}
+.footer-content,
+.hasta-studios {
+  position: relative;
+  overflow: hidden;
+}
+.footer-content {
+  align-self: stretch;
+  height: 994px;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 616px var(--padding-xl) 148.9px;
+  box-sizing: border-box;
+  gap: 135px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 30px;
+  color: var(--color-white);
+  font-family: var(--font-century-gothic);
+}
+.hasta-studios {
+  width: 100%;
+  background-color: #0f1320;
+  align-items: flex-start;
+  gap: 22.8px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .main-parent {
+    gap: 134px;
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .bisect,
+  .cfdowloads,
+  .discord1 {
+    flex: 1;
+  }
+  .discord-info {
+    flex-wrap: wrap;
+  }
+  .community-content {
+    gap: 69px;
+  }
+  .logo-image-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer {
+    gap: 78px;
+  }
+  .footer-content {
+    gap: var(--gap-48xl);
+    padding-top: 400px;
+    padding-bottom: 97px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .team-info {
+    display: none;
+  }
+  .logo-parent {
+    width: 261px;
+    gap: 37px;
+  }
+  .main-parent {
+    padding-top: var(--padding-xl);
+    padding-bottom: 120px;
+    box-sizing: border-box;
+  }
+  .footer-content,
+  .header {
+    padding-bottom: 48px;
+    box-sizing: border-box;
+  }
+  .footer-content {
+    padding-top: 260px;
+    padding-bottom: 63px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .revolutionizing-minecraft {
+    font-size: var(--font-size-32xl);
+  }
+  .main-parent {
+    gap: var(--gap-48xl);
+  }
+  .header {
+    padding-bottom: 31px;
+    box-sizing: border-box;
+  }
+  .total-discord-members {
+    font-size: var(--font-size-10xl);
+    line-height: 26px;
+  }
+  .b {
+    font-size: var(--font-size-32xl);
+    line-height: 19px;
+  }
+  .discord1 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .total-projects-dowloads {
+    font-size: var(--font-size-10xl);
+    line-height: 26px;
+  }
+  .b1 {
+    font-size: var(--font-size-32xl);
+    line-height: 19px;
+  }
+  .cfdowloads {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .bisect-hosting-partnership {
+    font-size: var(--font-size-10xl);
+    line-height: 26px;
+  }
+  .bisect {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .minecraft-server {
+    font-size: 48px;
+    line-height: 77px;
+  }
+  .community-content {
+    gap: var(--gap-15xl);
+  }
+  .welcome-to-zelthoriai-container {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+  .footer-info {
+    flex-wrap: wrap;
+  }
+  .footer {
+    gap: 39px;
+  }
+  .footer-content {
+    height: auto;
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo-parent {
+    gap: var(--gap-lg);
+  }
+  .revolutionizing-minecraft {
+    font-size: var(--font-size-13xl);
+  }
+  .we-are-a-container {
+    font-size: 19px;
+  }
+  .main-parent {
+    gap: 33px;
+    padding-bottom: 78px;
+    box-sizing: border-box;
+  }
+  .total-discord-members {
+    font-size: var(--font-size-3xl);
+    line-height: 19px;
+  }
+  .b {
+    font-size: var(--font-size-13xl);
+    line-height: 13px;
+  }
+  .join-our-discord {
+    font-size: var(--font-size-base);
+    line-height: 27px;
+  }
+  .discord1 {
+    gap: var(--gap-9xl);
+  }
+  .total-projects-dowloads {
+    font-size: var(--font-size-3xl);
+    line-height: 19px;
+  }
+  .b1 {
+    font-size: var(--font-size-13xl);
+    line-height: 13px;
+  }
+  .as-a-minecraft {
+    font-size: var(--font-size-base);
+    line-height: 27px;
+  }
+  .cfdowloads {
+    gap: var(--gap-9xl);
+  }
+  .bisect-hosting-partnership {
+    font-size: var(--font-size-3xl);
+    line-height: 19px;
+  }
+  .looking-to-dive {
+    font-size: var(--font-size-base);
+    line-height: 27px;
+  }
+  .bisect {
+    gap: var(--gap-lg);
+  }
+  .minecraft-server {
+    font-size: var(--font-size-10xl);
+    line-height: 52px;
+  }
+  .community-content {
+    gap: var(--gap-mid);
+  }
+  .welcome-to-zelthoriai-container {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .footer {
+    gap: var(--gap-xl);
+  }
+  .footer-content {
+    gap: var(--gap-mid);
+    padding-top: 169px;
+    padding-bottom: 41px;
+    box-sizing: border-box;
+  }
+}
