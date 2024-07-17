@@ -22,6 +22,7 @@
     width: 25%;
     min-width: 10%;
     z-index: 1;
+    margin-right: 80px;
 }
 
 @media (max-width: 768px) {
@@ -32,7 +33,43 @@
     .mimir {
         width: 50%;
         margin-top: 20px;
+        margin-right: 0px;
     }
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .social-icons a {
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin: 10px; 
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+    }
+/* Estilos específicos para cada ícone */
+.discord {
+    background-image: url('discord-icon.png');
+    background-size: 20px;
+}
+
+.github {
+    background-image: url('github-icon.png');
+    background-color: white;
+    background-size: 20px;
+}
+
+.tiktok {
+    background-image: url('tiktok-icon.png');
+    background-size: 17px;
+}
+
+.youtube {
+    background-image: url('youtube-icon.png');
+    background-size: 20px;
 }
 .main {
   width: 1481px;
@@ -104,6 +141,101 @@
 .team-info {
   display: flex;
   max-width: 100%;
+}
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #4d4d4d;
+    position: relative;
+}
+
+    .nav > .nav-header {
+        display: inline;
+    }
+
+        .nav > .nav-header > .nav-title {
+            display: inline-block;
+            font-size: 22px;
+            color: #fff;
+            padding: 10px 10px 10px 10px;
+        }
+
+    .nav > .nav-btn {
+        display: none;
+    }
+
+    .nav > .nav-links {
+        display: inline;
+        float: right;
+        font-size: 18px;
+    }
+
+        .nav > .nav-links > a {
+            display: inline-block;
+            padding: 13px 10px 13px 10px;
+            text-decoration: none;
+            color: #efefef;
+        }
+
+            .nav > .nav-links > a:hover {
+                background-color: rgba(0, 0, 0, 0.3);
+            }
+
+    .nav > #nav-check {
+        display: none;
+    }
+
+@media (max-width:600px) {
+    .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+        .nav > .nav-btn > label {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            padding: 13px;
+        }
+
+            .nav > .nav-btn > label:hover, .nav #nav-check:checked ~ .nav-btn > label {
+                background-color: rgba(0, 0, 0, 0.3);
+            }
+
+            .nav > .nav-btn > label > span {
+                display: block;
+                width: 25px;
+                height: 10px;
+                border-top: 2px solid #eee;
+            }
+
+    .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+    }
+
+        .nav > .nav-links > a {
+            display: block;
+            width: 100%;
+        }
+
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+    }
+
+    .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
 }
 .team-info {
   margin: 0;
@@ -682,7 +814,12 @@
     color: var(--color-white);
     border: medium;
     border-radius: 15px;
+    transition: transform 0.3s ease; /* Adiciona a transição suave */
 }
+
+    .cardbutton:hover {
+        transform: scale(1.05); /* Aumenta o tamanho do botão em 5% */
+    }
 .bisect,
 .discord-info {
   display: flex;
@@ -716,14 +853,25 @@
   max-width: 100%;
 }
 .zsmp-image {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
-  box-sizing: border-box;
-  max-width: 100%;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-4px);
+    }
 }
 .minecraft-server,
 .server-image {
@@ -794,8 +942,8 @@
 .at-zelthoriai-smp,
 .join-us-and,
 .welcome-to-zelthoriai {
-    margin-top: -620;
     font-weight: 100;
+    font-size: 18px;
 }
 .welcome-to-zelthoriai-container1 {
   width: 100%;
@@ -816,23 +964,24 @@
   align-items: flex-start;
   justify-content: center;
   box-sizing: border-box;
-  max-width: 100%;
+  max-width: 80%;
+  margin-bottom: 15px;
 }
-.our-team1 {
-  position: relative;
-  text-decoration: underline;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  display: inline-block;
-  min-width: 77px;
-  z-index: 1;
+.footeritem {
+    position: relative;
+    text-decoration: underline;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    display: inline-block;
+    z-index: 1;
+    color: white;
+    font-weight: 400;
 }
 .footer-items {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
-  padding: 0 var(--padding-2xs) 0 0;
 }
 .navigation-links {
   position: relative;
@@ -847,7 +996,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-8xs) 0 0;
   color: var(--color-gray-300);
 }
 .discord3,
@@ -870,7 +1018,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-8xs) 0 0;
   color: var(--color-gray-300);
 }
 .bisect-hosting2 {
@@ -883,12 +1030,10 @@
   z-index: 1;
 }
 .footer-items3 {
-  width: 150px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-xl) 0 0;
   box-sizing: border-box;
 }
 .navigation-links2 {
@@ -904,7 +1049,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-8xs) 0 0;
   color: var(--color-gray-300);
 }
 .launcher1 {
@@ -922,17 +1066,16 @@
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
+  justify-content: center;
 }
 .footer-info {
-  width: 792px;
-  justify-content: space-between;
   gap: var(--gap-xl);
 }
 .footer-content1 {
-  width: 1558px;
   justify-content: center;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
+  margin-bottom: 20px;
 }
 .logo-icon1 {
   width: 187px;
@@ -947,8 +1090,8 @@
   width: 371px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .frame-child {
@@ -1008,11 +1151,11 @@
   font-size: 12px;
 }
 .hasta-studios-all-rights-rese-parent {
-  align-self: stretch;
+  align-self: center;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .copyright,
 .logo-image-parent {
@@ -1045,8 +1188,7 @@
   justify-content: flex-start;
 }
 .footer {
-  width: 1575px;
-  align-items: flex-start;
+  align-items: center;
   gap: 156.7px;
   max-width: 100%;
   flex-shrink: 0;
@@ -1059,15 +1201,13 @@
 }
 .footer-content {
   align-self: stretch;
-  height: 994px;
   flex-shrink: 0;
   align-items: center;
-  padding: 616px var(--padding-xl) 148.9px;
   box-sizing: border-box;
   gap: 135px;
-  max-width: 100%;
-  text-align: left;
-  font-size: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 20px;
   color: var(--color-white);
   font-family: var(--font-century-gothic);
 }
@@ -1103,12 +1243,14 @@
   }
   .footer {
     gap: 78px;
+    align-items: center;
   }
   .footer-content {
     gap: var(--gap-48xl);
-    padding-top: 400px;
+    padding-top: inherit;
     padding-bottom: 97px;
     box-sizing: border-box;
+    align-items: center;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -1130,7 +1272,7 @@
     box-sizing: border-box;
   }
   .footer-content {
-    padding-top: 260px;
+    padding-top: inherit;
     padding-bottom: 63px;
   }
 }
@@ -1189,7 +1331,7 @@
     gap: var(--gap-15xl);
   }
   .welcome-to-zelthoriai-container {
-    font-size: var(--font-size-5xl);
+    font-size: 10px;
     line-height: 31px;
   }
   .footer-info {
@@ -1276,7 +1418,7 @@
   }
   .footer-content {
     gap: var(--gap-mid);
-    padding-top: 169px;
+    padding-top: inherit;
     padding-bottom: 41px;
     box-sizing: border-box;
   }
